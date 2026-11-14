@@ -1,6 +1,6 @@
 # cmux image preview
 
-A Claude Code `PostToolUse` hook. When Claude creates or opens an image (a screenshot, a generated image, a Playwright capture, an MCP tool's image), it shows up in a **"Claude images"** split next to the Claude pane in [cmux](https://cmux.dev).
+A Claude Code `PostToolUse` hook. When Claude creates or opens an image (a screenshot, a generated image, a Playwright capture, an MCP tool's image), it shows up in a **"Claude images"** split next to the Claude pane in [cmux](https://github.com/manaflow-ai/cmux).
 
 Claude Code redraws its own screen, which wipes out any image drawn into it, so the images go to a separate split. The split draws them with the kitty graphics protocol, which cmux supports because it is built on Ghostty.
 
