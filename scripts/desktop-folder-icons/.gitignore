@@ -1,0 +1,7 @@
+# personal config and assets stay local
+icons.conf
+layout.conf
+logos/
+finder-prefs-backup.plist
+# build output
+folder-icon
