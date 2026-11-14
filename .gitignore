@@ -1,0 +1,4 @@
+hooks/*/state/
+hooks/*/captures/
+__pycache__/
+.DS_Store
